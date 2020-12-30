@@ -11,6 +11,8 @@ body {
     width: 40%;
     margin-left: 38%;
     margin-top: 5%;
+    
+    
     /* padding-right: -3%; */   
    
 }
@@ -21,17 +23,43 @@ img {
     border-width: thick;
     margin-left: -145%;
     
+    
+    
 }
 
 .container-one-img{
     background-color: #dbe9e7;
-    margin-top: 8%;
-    margin-left: 50%;  
+    margin-top: 5%;
+    margin-left: 58%;  
     box-shadow: 0 0 45px;
+    animation-name: slide;
+    position: relative;
+    animation-direction: reverse;
+    animation-duration: 1.2s;
     
     /* padding-right: -3%; */
 }
+@keyframes slide {
+    from {left: 0px;}
+    to {left: 400px;}
+  }
 
+.text-box{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.text-box span {
+    position: absolute;
+    background: aqua;
+    margin-top: 8px;
+    width: 100px;
+    position: absolute;
+    height: 2px;
+    
+}
+.text-box h2 {
+    margin-top: 5%;
+}
 
 .about {
     background-image: url(/images/hike.webp);
