@@ -59,6 +59,15 @@ img {
 }
 .text-box h2 {
     margin-top: 5%;
+    animation-name: pop;
+    animation-duration: 6.2s;
+    
+}
+@keyframes pop {
+    from {
+        transform: translateX(100%);}
+    
+      to {transform: translateX(0%);}
 }
 
 .about {
