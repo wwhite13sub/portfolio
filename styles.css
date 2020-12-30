@@ -1,0 +1,69 @@
+body {
+    font-family: 'Ranchers', cursive;
+}
+
+.portfolio {
+    background-color: #FBB574;
+}
+
+.person-img {
+    height: 48%;
+    width: 40%;
+    margin-left: 38%;
+    margin-top: 5%;
+    /* padding-right: -3%; */   
+   
+}
+img {
+    border-radius: 45%;
+    border-style: solid;
+    border-color: #E88D72;
+    border-width: thick;
+    margin-left: -145%;
+    
+}
+
+.container-one-img{
+    background-color: #dbe9e7;
+    margin-top: 8%;
+    margin-left: 50%;  
+    box-shadow: 0 0 45px;
+    
+    /* padding-right: -3%; */
+}
+
+
+.about {
+    background-image: url(/images/hike.webp);
+    background-repeat: no-repeat;
+}
+.contact {
+    background-color: #E88D72;
+}
+
+.navbar-custom {
+    background-color: #543855;
+}
+.navbar-custom1 {
+    background-color: #FBB574;
+}
+.navbar-toggle {
+    background-color: #543855;
+}
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+.info {
+    background-color: #FBB574;
+    padding: 10%;
+    margin-top: 8%;
+    border-style: solid;
+    border-radius: 8%;
+}
+.e-mail {
+    margin-top: 2%;
+}
+.btn-custom {
+    background-color:#543855;
+    color:aliceblue;
+}
