@@ -1,106 +1,250 @@
+/************************* All Pages *************************/
+
+
+
 body {
-    font-family: 'Ranchers', cursive;
+  font-family: 'Ranchers', cursive;
 }
 
+.glyphicon{
+  color:#9ae0d6;
+  padding: 5px;
+}
+.glyphicon:hover {
+  color:black;
+}
+
+/******************************* .portfolio page ****************
+*****************************************************************
+*****************************************************************/
+
 .portfolio {
-    background-color: #FBB574;
+  background-color: #47484A;
+}
+.container {
+  border-style: solid;
+  border-width: 2px;
+  border-color:antiquewhite;
+  width: 70%;
+}
+.fa:hover {  
+    opacity: 0.5;
+
+}
+
+.fa-facebook-square {  
+  background: #3B5998;
+  color:white;
+}
+
+/* Twitter */
+.fab-linkedin {  
+  background: #55ACEE;  
+  color: white;
+} 
+
+.text-facebook {
+  color: #3b5998 !important;
+  
+}
+.text-linkedin {
+  color: #0077B5 !important
+}
+.text-github {
+  color:black !important
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: 45%;
+  
+}
+
+ul.list-inline li {
+  display: inline-block;
+  padding: 0 8px
+}
+.list-inline li {
+  margin-bottom: 35%;
 }
 
 .person-img {
-    height: 48%;
-    width: 40%;
-    margin-left: 38%;
-    margin-top: 5%;
-    
-    
-    /* padding-right: -3%; */   
-   
+  height: 48%;
+  width: 50%;
+  margin-left: 38%;
+  margin-top: 5%;
+
+  /* padding-right: -3%; */
 }
-img {
-    border-radius: 45%;
-    border-style: solid;
-    border-color: #E88D72;
-    border-width: thick;
-    margin-left: -145%;
-    
-    
-    
+#img {
+  border-radius: 25%;
+  border-style: solid;
+  border-color: #e88d72;
+  border-width: thin;
+  margin-left: 5%;
+  
 }
 
-.container-one-img{
-    background-color: #dbe9e7;
-    margin-top: 5%;
-    margin-left: 58%;  
-    box-shadow: 0 0 45px;
-    animation-name: slide;
-    position: relative;
-    animation-direction: reverse;
-    animation-duration: 1.2s;
-    
-    /* padding-right: -3%; */
+.container-one-img {
+  /* background-color: #dbe9e7; */
+  margin-top: 1%;
+  margin-left: 68%;
+  /* box-shadow: 0 0 45px; */
+  border-style: solid;
+  border-color: antiquewhite;
+  border-width: 2px;
+  width: 30%;
+  margin-left: 55%;
+  
+  animation-name: slide;
+  position: relative;
+  animation-direction: reverse;
+  animation-duration: 1.2s;
+
+  /* padding-right: -3%; */
 }
 @keyframes slide {
-    from {left: 0px;}
-    to {left: 400px;}
+  from {
+    left: 0px;
   }
+  to {
+    left: 400px;
+  }
+}
 
-.text-box{
-    margin-top: 6%;
-    margin-left: 10%;
+.text-box {
+  margin-top:5%;
+  margin-left: 10%;
 }
 .text-box span {
-    position: absolute;
-    background: aqua;
-    margin-top: 8px;
-    width: 100px;
-    position: absolute;
-    height: 2px;
-    
+  position: absolute;
+  background: aqua;
+  margin-top: 8px;
+  width: 180px;
+  position: absolute;
+  height: 2px;
 }
 .text-box h2 {
-    margin-top: 5%;
-    animation-name: pop;
-    animation-duration: 6.2s;
-    
+  margin-top: 4%;
+  animation-name: pop;
+  animation-duration: 6.2s;
 }
 @keyframes pop {
-    from {
-        transform: translateX(100%);}
-    
-      to {transform: translateX(0%);}
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+  0% {
+    top: 0px;
+    left: 0px;
+    color: #dbe9e7;
+  }
+  25% {
+    top: 0px;
+    left: 100px;
+    color: rgb(8, 131, 131);
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    color: #e88d72;
+  }
+  /* 75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;} */
 }
+/*************************** About Page ***************************
+*******************************************************************
+*******************************************************************/
+
 
 .about {
-    background-image: url(/images/hike.webp);
-    background-repeat: no-repeat;
+  background: #47484A;
+  
+  
 }
+
+
+
+
+
+
+
+/******************************* contact page *********************
+*******************************************************************
+*******************************************************************/
+
 .contact {
-    background-color: #E88D72;
+  background-color: #47484A;
+  
 }
 
 .navbar-custom {
-    background-color: #543855;
+  /* background-color: #543855; */
 }
 .navbar-custom1 {
-    background-color: #FBB574;
+  /* background-color: #fbb574; */
 }
 .navbar-toggle {
-    background-color: #543855;
+  background-color: #543855;
 }
 .navbar-toggle .icon-bar {
-    background-color: white;
+  background-color: white;
 }
 .info {
-    background-color: #FBB574;
-    padding: 10%;
-    margin-top: 8%;
-    border-style: solid;
-    border-radius: 8%;
+  background-color: #fbb574;
+  padding: 10%;
+  margin-top: 8%;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: #cc8f56;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
 }
+
 .e-mail {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 .btn-custom {
-    background-color:#543855;
-    color:aliceblue;
+  background-color: #543855;
+  color: aliceblue;
 }
+
+/*********************** Media Query Mobile  **************
+*************************************************************/
+@media only screen and (max-width: 480px){
+.text-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: ivory;
+  margin-right: 8%;
+  
+  }
+.text-box span{
+  background:none;
+  }
+}
+@media only screen and (max-width: 480px){
+  #img{
+    border:none;
+    border-radius: 0px;
+    margin-left: -20%;
+    width:100%;
+  }
+  .container-one-img{
+    margin-left:3%;
+    background-color: lightcoral;
+    padding: 4%;
+  }
+}
+
+
+
+
+
+
