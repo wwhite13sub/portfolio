@@ -18,24 +18,24 @@ body {
 *****************************************************************
 *****************************************************************/
 
-.portfolio {
-  background-color:rgba(0, 0, 0, 0.5);
+.Portfolio {
+  background-color:rgba(46, 45, 45, 0.767);
 }
 .container {
   /* border-style: solid;
   border-width: 2px;
   border-color:antiquewhite; */
+  margin-top: -5%;
   width: 70%;
 }
 .fa:hover {  
-    opacity: 0.5;
-  }
+  opacity: 0.5;
+}
 
 .fa-facebook-square {  
   background: #3B5998;
     color:white;
-  }
-
+}
 
 .fab-linkedin {  
   background: #55ACEE;  
@@ -56,7 +56,7 @@ body {
 .list-inline {
   padding-left: 0;
   list-style: none;
-  margin-left: 35%;
+  margin-left: 45%;
   margin-right: 52%;
   margin-bottom: -2%;
   padding: -20%;
@@ -124,7 +124,7 @@ ul.list-inline li {
   }
 }
 .container-one-img {
-  background-color: rgba(73, 73, 73, 0.185);
+  background-color: rgba(56, 56, 56, 0.185);
   margin-top: 1%;
   margin-left: 38%;
   box-shadow: 0 0 105px whitesmoke;
@@ -156,7 +156,7 @@ ul.list-inline li {
 }
 
 .text-box {
-  margin-top:5%;
+  margin-top:9%;
   margin-left: 10%;
   color:whitesmoke;
 }
@@ -270,10 +270,18 @@ ul.list-inline li {
 }
 .container-info {
   background-color: antiquewhite;
-  height: 200px;
-  width:80%;
+  height: 100%;
+  width:90%;
+  margin-left: 5%;
 }
-
+.flex-quote {
+  display:inline;
+}
+.container-info{
+  border-style: solid;
+  border-color:yellow;
+  border-width: 2px;
+}
 /*************************** About Page ***************************
 *******************************************************************
 *******************************************************************/
@@ -299,25 +307,37 @@ ul.list-inline li {
   background-color: #47484A;
   
 }
+.container4 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
 
-.navbar-custom {
-  /* background-color: #543855; */
+  width:70%;
+  margin-left: 20%;
 }
+.navbar4 {
+
+}
+
 .navbar-custom1 {
-  /* background-color: #fbb574; */
+  background-color: #fbb574;
 }
-.navbar-toggle {
+.navbar-toggle-4 {
   background-color: #543855;
+  height:6%;
+  width:6%;
+  float:right;
 }
-.navbar-toggle .icon-bar {
+.navbar-toggle-4 .icon-bar {
+  color: white;
   background-color: white;
 }
 .navbar{
   display:none;
 }
-.navbar-toggle {
+/* .navbar-toggle-4 {
   display:none;
-}
+} */
 .info {
   background-color: #fbb574;
   padding: 10%;
@@ -411,6 +431,20 @@ ul.list-inline li {
     height: 15%;
     
   }
+  .navbar{
+    visibility: visible;
+    display: inline;
+  }
+  .navbar-toggle {
+    visibility: visible;
+    display: inline;
+    background-color: violet;
+  }
+  .glyphicon  {
+    font-size: 20px;
+    color:#cc8f56;
+    
+  }  
 }
 
 @media only screen and (min-width: 667px){
@@ -426,6 +460,12 @@ ul.list-inline li {
   border-style: solid;
   border-color: chartreuse;
   border-width: 2px;
+
+
+  justify-content: center;
+  }
+  .text-box span {
+    display: none;
   }
   .container-list {
     border-style: solid;
@@ -435,4 +475,9 @@ ul.list-inline li {
     height: 13%;
         
   }
+  #img {
+    width: 220%;
+    margin-left: -80%;
+  }
+  
 }
