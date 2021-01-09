@@ -7,7 +7,7 @@ body {
 }
 
 .glyphicon{
-  color:#9ae0d6;
+  color:#63099eb9;
   padding: 5px;
 }
 .glyphicon:hover {
@@ -36,7 +36,7 @@ body {
     color:white;
   }
 
-/* Twitter */
+
 .fab-linkedin {  
   background: #55ACEE;  
   color: white;
@@ -175,11 +175,11 @@ ul.list-inline li {
   margin-top: 4%; */
   /* animation-name: pop; */
   /* animation-duration: 6.2s; */
-}
+
 
 
 #stage {
-  margin: 1erm auto;
+  /* margin: 1erm auto; */
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
   -ms-perspective: 1200px;
@@ -248,11 +248,32 @@ ul.list-inline li {
 
 
 .container-main2 {
-  background-color: white;
+  background-color: rgb(67, 190, 174);
   border-style: solid;
   border-width: 3px;
   border-color: rgb(55, 197, 197);
 }
+.container-main2 li {
+  display:inline-block;
+  justify-content: space-between;
+  margin-left: 8%;
+  padding: 2%;
+  color:antiquewhite;
+  font-size: 25px;
+
+}
+
+.glyphicon  {
+  font-size: 38px;
+  background-image: linear-gradient(#f3d7eee5, #bd2fa5e5);
+  display: inline-flex;
+}
+.container-info {
+  background-color: antiquewhite;
+  height: 200px;
+  width:80%;
+}
+
 /*************************** About Page ***************************
 *******************************************************************
 *******************************************************************/
@@ -344,6 +365,12 @@ ul.list-inline li {
     visibility: visible;
     display: inline;
   }
+  .glyphicon  {
+    font-size: 20px;
+    color:#cc8f56;
+    
+  }
+  
   .container-main2 {
     display: none;
   }
@@ -405,6 +432,7 @@ ul.list-inline li {
     border-width: 2px;
     border-color: rgba(250, 235, 215, 0.747);
     margin-bottom: 3%;
-    height: 13%;    
+    height: 13%;
+        
   }
 }
