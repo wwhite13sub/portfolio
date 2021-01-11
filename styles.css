@@ -14,9 +14,9 @@ body {
   color:black;
 }
 
-/******************************* .portfolio page ****************
-*****************************************************************
-*****************************************************************/
+/*********************************************************************** .portfolio page ******************************************
+                                        *****************************************************************
+***********************************************************************************************************************************/
 
 .Portfolio {
   background-color:rgba(46, 45, 45, 0.767);
@@ -24,9 +24,11 @@ body {
 .container {
   /* border-style: solid;
   border-width: 2px;
-  border-color:antiquewhite; */
+  border-color:rgb(225, 250, 215); */
   margin-top: -5%;
   width: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .fa:hover {  
   opacity: 0.5;
@@ -246,7 +248,6 @@ ul.list-inline li {
 
 }
 
-
 .container-main2 {
   background-color: rgb(67, 190, 174);
   border-style: solid;
@@ -284,9 +285,9 @@ ul.list-inline li {
   border-color:yellow;
   border-width: 2px;
 }
-/*************************** About Page ***************************
-*******************************************************************
-*******************************************************************/
+/***************************************************** About Page ****************************************************************
+                               *******************************************************************
+**********************************************************************************************************************************/
 
 
 .about {
@@ -295,43 +296,100 @@ ul.list-inline li {
   
 }
 
+/******************************************************Skill page****************************************************************
+                                  *******************************************************************
+*********************************************************************************************************************************/
 
+.skill {
+  background-color:rgb(46, 45, 45);
+  color:cornsilk;
+}
+.navbar.navbar-custom3 {
+  background-color: rgb(39, 180, 58);
+  visibility: visible;
+  display: inline;
+  width: 100%;
 
-
-
-
-
-/******************************* contact page *********************
-*******************************************************************
-*******************************************************************/
+}
+.navbar-brand3 {
+  font-size: 36px;
+}
+.navbar-toggle-3 {
+  background-color: blueviolet;
+  display: hidden;
+}
+.nav3 {
+  background-color: cornsilk;
+}
+.navbar-collapse3 {
+  display: hidden;
+}
+/****************************************************** contact page ***********************************************************
+                                  *******************************************************************
+********************************************************************************************************************************/
 
 .contact {
-  background-color: #47484A;
+  background-image: linear-gradient(rgb(56, 56, 56), rgba(255, 255, 255, 0.575)) ;
   
 }
 .container4 {
   border-style: solid;
   border-width: 2px;
-  border-color: yellow;
+  border-color: rgba(116, 113, 113, 0.685);
+  background-color: rgb(36, 36, 36);
 
   width:70%;
-  margin-left: 20%;
-}
-.navbar4 {
+  box-shadow: -70px -50px 205px rgb(211, 208, 208);
+  ;
+  
 
+  margin-left: 15%;
+  margin-top: 3%;
+  /* width: 210%; */
+
+  border-radius: 20%;
+}
+
+.info {
+  background-color: #ff8882d7;
+  padding: 10%;
+  margin-top: 3%;
+  margin-left: 12%;
+ width: 95%;
+  border-radius: 20%;
+ 
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(36, 36, 36, 0.575);
+ 
+}
+
+.navbar-brand4 {
+  font-size: 36px;
+}
+.button4 {
+  display: hidden;
+  visibility: hidden;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .navbar-custom1 {
-  background-color: #fbb574;
+  background-color: rgb(9, 148, 148);
 }
 .navbar-toggle-4 {
   background-color: #543855;
   height:6%;
   width:6%;
   float:right;
+  visibility: hidden;
 }
+
+
 .navbar-toggle-4 .icon-bar {
   background-color: white;
+  
 }
 .navbar{
   display:none;
@@ -339,16 +397,6 @@ ul.list-inline li {
 /* .navbar-toggle-4 {
   display:none;
 } */
-.info {
-  background-color: #fbb574;
-  padding: 10%;
-  margin-top: 8%;
-  border-style: solid;
-  border-radius: 5%;
-  border-color: #cc8f56;
-  border-top-left-radius: 20%;
-  border-bottom-left-radius: 20%;
-}
 
 .e-mail {
   margin-top: 2%;
