@@ -261,8 +261,13 @@ ul.list-inline li {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
+  padding: 1.2%;
+  
   
 }
+
+
 .container-main2 li {
   display:inline-block;
   justify-content: space-between;
@@ -280,9 +285,9 @@ ul.list-inline li {
 }
 .container-info {
   background-color: antiquewhite;
-  height: 100%;
-  width:90%;
-  margin-left: 5%;
+  height: 150%;
+  width:100%;
+
 }
 .flex-quote {
   display:flex;
@@ -294,6 +299,61 @@ ul.list-inline li {
   border-color:yellow;
   border-width: 2px;
 }
+
+/***********************projects carousel**************/
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25%;
+ 
+}
+.carousel-control-next,
+.carousel-control-prev{
+  color:rgb(36, 36, 36);
+}
+
+.grid-container{
+  border:solid;
+  border-width: 3px;
+  border-color:rgb(67, 190, 174);
+  background-color:rgba(46, 45, 45, 0.767);
+  border-radius: 10%;
+
+  display:grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  column-gap: 3%;
+  row-gap: 3%;
+}
+
+.flex-container1{
+  margin-top: 10%;
+  margin-left: 9%;
+  padding:1%;
+  width:20%;
+  border-radius: 5%;
+  box-shadow: 0 0 125px white;
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d33ebd;
+}
+
+.flex-container2{
+  margin-top: 5%;
+  margin-bottom: 15%;
+  margin-right: 35%;
+  width:35%;
+  
+  padding:1%;
+
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: #271e26;
+}
+
+  
 /***************************************************** About Page ****************************************************************
                                *******************************************************************
 **********************************************************************************************************************************/
@@ -309,7 +369,7 @@ ul.list-inline li {
                                   *******************************************************************
 *********************************************************************************************************************************/
 
-.skill {
+/* .skill {
   background-color:rgb(46, 45, 45);
   color:cornsilk;
 }
@@ -332,7 +392,7 @@ ul.list-inline li {
 }
 .navbar-collapse3 {
   display: hidden;
-}
+} */
 /****************************************************** contact page ***********************************************************
                                   *******************************************************************
 ********************************************************************************************************************************/
@@ -448,14 +508,18 @@ ul.list-inline li {
 }
 /*********************** Media Query Mobile  **************
 *************************************************************/
-@media only screen and (max-width: 480px){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
 .text-box{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgba(101, 236, 207, 0.616);
-  /* width:150%; */
+  width:150%;
   margin-left: auto;
   margin-right: auto;
   
@@ -542,36 +606,19 @@ ul.list-inline li {
   .icon-bar{
     background-color:white;
   }
-  /* .glyphicon  {
-    font-size: 20px;
-    color:#cc8f56; */
-    
-  }  
+  
 }
 
 
-@media only screen and (min-width: 667px){
-  .list-inline{
-    display: inline-flex;
-    
-  }
-  .container-main2 li{
-    width: 14%;
-    /* border-style: solid; */
-  /* border-color: chartreuse;
-  border-width: 2px;
-  padding: 1%;
-  justify-content:space-between; */
-  }
-  /* .container-main2{
-    margin-left: 1%;
-    margin-right: 1%;
-  } */
-}
 
-/* tablet */
 
-@media only screen and (max-width: 767px){
+/*************************** tablet **********************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
   .container-one-img{
   /* border-style: solid;
   border-color: chartreuse;
