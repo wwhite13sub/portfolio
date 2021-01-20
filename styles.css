@@ -185,7 +185,7 @@ ul.list-inline li {
   
 }
 .intro {
-  font-size: 90px;
+  font-size: 70px;
   color:whitesmoke
 }
 .text-box span {
@@ -216,7 +216,7 @@ ul.list-inline li {
 
 #spinner {
   margin-top: 3%;
-  font-size: 60px;
+  font-size: 50px;
   -webkit-animation-name: spinner;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
@@ -423,51 +423,29 @@ ul.list-inline li {
  
 }
 
-.navbar-brand4 {
-  font-size: 36px;
-}
+
 .button4 {
   display: hidden;
   visibility: hidden;
   border-style: solid;
   border-width: 3px;
 }
-
-.navbar-custom1 {
-  background-color: rgb(9, 148, 148);
-}
-.navbar-toggle-4 {
-  background-color: #543855;
-  height:6%;
-  width:6%;
-  float:right;
-  visibility: hidden;
-}
-
-
-.navbar-toggler.icon-bar {
-  background-color: white;
-  
-}
 .navbar{
   display:none;
 }
-/* .navbar-toggle-4 {
-  display:none;
-} */
-.navbar-toggler-icon  {
-  font-size: 30px;
-  background-image: linear-gradient(#f3d7eee5, #bd2fa5e5);
+.navbar-toggler   {
+  font-size: 10px;
+  background-color:var(--action-filler);
   display: inline-flex;
 }
-/* .glyphicon.four.glyphicon-folder-open {
-  width:20%; */
+.navbar-toggler:hover{
+  border-color: aliceblue;
 }
 .e-mail {
   margin-top: 2%;
 }
 .btn-custom {
-  background-color: #543855;
+  background-color:var(--action-filler);
   color: aliceblue;
 }
 
@@ -497,10 +475,7 @@ ul.list-inline li {
 }
 /*********************** Media Query Mobile  **************
 *************************************************************/
-@media only screen 
-  and (min-device-width: 992px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait){
+@media only screen and (max-width: 992px){
 .text-box{
   display: flex;
   justify-content: center;
@@ -508,7 +483,7 @@ ul.list-inline li {
   flex-direction: column;
   background-color: rgba(101, 236, 207, 0.616);
   width:100%;
-  height:45%;
+  height:35%;
   margin-left: auto;
   margin-right: auto;
   
@@ -518,13 +493,13 @@ ul.list-inline li {
   margin-left: -25%; */
   }
   .intro {
-    font-size: 60px;
+    font-size: 50px;
     color:whitesmoke;
-    margin-left: 8%;
+    margin-left: 1%;
   }
 #spinner{
-  font-size:50px;
-  margin-left: 8%;
+  font-size:40px;
+  margin-left: 1%;
 }
 .text-box span{
   background:none;
@@ -533,13 +508,22 @@ ul.list-inline li {
     visibility: visible;
     display: inline;
   }
+  .nav-link{
+    color:var(--font-color);
+    font-size: 15px;
+    margin-left: 255%;
+  }
+  .nav-link:hover{
+    color:aqua;
+    opacity:0.2;
+  }
   .navbar-toggle {
     visibility: visible;
     display: inline;
   }
-  .glyphicon  {
+  .bi  {
     font-size: 20px;
-    color:rgb(103, 55, 143);    
+    color:var(--action-filler)    
   }
   
   .container-main2 {
@@ -551,22 +535,23 @@ ul.list-inline li {
     margin-left: 35%;
     
   }
-  
-  .person-img {
-    height:79%;
-    width: 75%;
-    margin-left:40%;
-    margin-top: -15%;
+  #img {
+    height:90%;
+    width:100%;
+    margin-top:15%;
   }
+  
+  
   .container-one-img{
     
     background-color:rgba(44, 43, 42, 0.178);
     padding: .2%;
-    margin-top: -34%;
+    /* margin-top: -34%; */
     /* width: 95%; */
-    height:20%;
-    margin-left: 95%;
+    /* height:20%; */
+    margin-left: 55%;
     border-radius: 90%;
+    background-size: contain;
 
 
 
@@ -582,16 +567,13 @@ ul.list-inline li {
     height: 15%;
     
   }
-  .navbar{
-    visibility: visible;
-    display: inline;
+  .bi-list{
+    width:10%;
+    color:white;
+    padding:0%;
   }
-  .navbar-toggle {
-    visibility: visible;
-    display: inline;
-    background-color: violet;
-    margin-right: 5%;
-    overflow: hidden;
+  .button.bi-list:hover{
+    border-color: antiquewhite;
   }
   .icon-bar{
     background-color:white;
@@ -599,48 +581,15 @@ ul.list-inline li {
   
 }
 
-
+@media only screen and (max-width:320px){
+  .Portfolio{
+    background-color: #B6A19e;
+    background-repeat: no-repeat;
+    font-size: 15px;
+  }
+  
+}
 
 
 /*************************** tablet **********************/
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-  .container-one-img{
-  /* border-style: solid;
-  border-color: chartreuse;
-  border-width: 2px; */
-  justify-content: center;
-  }
-  .text-box span {
-    display: none;
-  }
-  .container-list {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(250, 235, 215, 0.747);
-    margin-bottom: 3%;
-    height: 13%;
-        
-  }
-  #img {
-    width: 220%;
-    margin-left: -80%;
-  }
-  .container-main2 li{
-    width: 14%;
-    /* border-style: solid; */
-  /* border-color: chartreuse;
-  border-width: 2px;
-  padding: 1%;
-  justify-content:space-between; */
-  }
-  .container-main2{
-    margin-left: 1%;
-    margin-right: 1%;
-  }
-  
-}
