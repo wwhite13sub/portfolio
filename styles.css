@@ -17,6 +17,7 @@ body {
   --action-filler:#fa9f02;
   --font-color:whitesmoke;
   --acc-color:aqua;
+  --acc-color2:#B6A19E;
 }
 .bi{
   color:var(--action-filler);
@@ -39,16 +40,15 @@ body {
 
 .Portfolio {
   background-color: black;
-  background-image:linear-gradient(#d3b9b5d7,#786f99,black);
+  background-image:linear-gradient(#d3b9b5d7,#786f99,rgb(61, 61, 61));
   background-repeat: no-repeat;
 }
 .container {
-  border-style: solid;
+  /* border-style: solid;
   border-width: 2px;
-  border-color:rgb(113, 219, 71);  
+  border-color:rgb(113, 219, 71);   */
   width: 100%;
-  /* margin-left: 2%;
-  margin-right: 2%; */
+  padding:5%;
 }
 /* .fa:hover {  
   opacity: 0.5;
@@ -100,15 +100,13 @@ ul.list-inline li {
 }
 #img {
   background-image: linear-gradient(rgb(109, 109, 109), rgba(255, 255, 255, 0.575)) ;  
-  margin-left: 12%;
-  margin-top: 1%;
-  width: 100%;
+  margin-left: 20%;
+  margin-top: 15%;
+  width: 80%;
+  height:75%;
   
   border-radius: 50%;
-  
-  border-style: solid;
-  border-color: #e88d72;
-  border-width: thin;
+  box-shadow: 0 0 105px rgb(43, 38, 38);
   
 }
 /* .fade-in {
@@ -144,19 +142,17 @@ ul.list-inline li {
 } */
 .container-one-img {
   background-color: rgba(0, 0, 0, 0.377);
-  margin-top: -30%;
-  margin-bottom: 10%;
+  margin-top: -25%;
+  margin-bottom: 5%;
   margin-right: 35%;
  
   margin-left: 65%;
-  box-shadow: 0 0 105px rgb(190, 255, 255);
+  box-shadow: 0 0 105px rgb(201, 253, 253);
   border-radius: 85%;
   width: 22%;
   
   
-  border-style: solid;
-  border-color: rgb(240, 145, 22);
-  border-width: 2px;
+  
   
 
   
@@ -178,7 +174,7 @@ ul.list-inline li {
 } */
 
 .text-box {
-  margin-top:5%;
+  margin-top:1%;
   margin-left: 5%;
   margin-bottom: 10%;
   color:whitesmoke; 
@@ -190,8 +186,8 @@ ul.list-inline li {
 }
 .text-box span {
   position: absolute;
-  background: rgb(36, 167, 167);
-  margin-top: 9%;
+  background: rgb(47, 219, 219);
+  margin-top: 8%;
   width: 390px;
   position: absolute;
   height: 4px;
@@ -302,25 +298,28 @@ ul.list-inline li {
 
 }
 
-.container-info {
-  /* background-color: antiquewhite; */
-  height: 150%;
-  width:100%;
 
-}
 
-.container-info{
-  border-style: solid;
-  border-color:yellow;
-  border-width: 2px;
-}
+
+
+
+  
+/***************************************************** Project & Skills Section ****************************************************************
+                               *******************************************************************
+**********************************************************************************************************************************/
+
+
+
 
 /***********************projects carousel**************/
-.navigation {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5%;
- 
+
+
+.container-info{}
+
+.skill-title{
+  margin-left: 35%;
+  margin-top: 10%;
+  
 }
 
 
@@ -328,56 +327,63 @@ ul.list-inline li {
   border:solid;
   border-width: 3px;
   border-color:rgb(67, 190, 174);
-  background-color:rgba(245, 245, 245, 0.486);
-  border-radius: 10%;
-  width:75%;
-  margin-left: 15%;
+  /* background-color:rgba(245, 245, 245, 0.486); */
+  /* background-color:#786f999c; */
+  
+
+  width:100%;
+ 
 
   display:grid;
   grid-template-columns:;
   grid-template-rows: ;
-  column-gap: 2%;
-  row-gap: 2%;
+  column-gap: 1%;
+  row-gap: 1%;
+}
+
+.carousel-item{
+  width:60%;
+  margin-left: 18%;
 }
 
 .flex-container1{
-  margin-top: 10%;
-  margin-left: 15%;
+  margin-top: 5%;
+  margin-left: 3%;
   padding:1%;
-  width:40%;
-  border-radius: 5%;
+  width:65%;
   box-shadow: 0 0 125px white;
-  /* position */
-
-  /* border-style: solid;
-  border-width: 3px;
-  border-color: #d33ebd; */
+  background-color: lightgray;
+  
 }
 
 .flex-container2{
-  margin-top: 5%;
-  margin-bottom: 15%;
-  margin-left: 15%;
-  width:40%;
-  
+  margin-top: 1%;
+  margin-left: 3%;
+  width:65%;  
+  background-color: lightgray;  
   padding:1%;
-  /* position */
-
-
-  /* border-style: solid;
-  border-width: 3px;
-  border-color: #271e26; */
+  
 }
 
-  
-/***************************************************** About section ****************************************************************
-                               *******************************************************************
-**********************************************************************************************************************************/
+.flex-container3{
+  margin-top: 1%;
+  margin-left: 3%;
+  padding:1%;
+  width:65%;
+  box-shadow: 0 0 125px white;
+  background-color: lightgray;
+}
+.flex-container4{
+  background-color: lightgray;
+  box-shadow: 0 0 125px white;
+  width:65%;
+  padding:1%;
+  margin-left: 3%;
+}
 
 
 
-
-/******************************************************Skill ****************************************************************
+/******************************************************About ****************************************************************
                                   *******************************************************************
 *********************************************************************************************************************************/
 
@@ -486,6 +492,7 @@ ul.list-inline li {
   height:35%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 105px rgb(18, 109, 109);
   
   /* border-style: solid;
   border-color: yellow;
@@ -496,10 +503,12 @@ ul.list-inline li {
     font-size: 50px;
     color:whitesmoke;
     margin-left: 1%;
+    margin-top: -9%;
   }
 #spinner{
   font-size:40px;
   margin-left: 1%;
+  margin-top: -2%;
 }
 .text-box span{
   background:none;
@@ -509,17 +518,22 @@ ul.list-inline li {
     display: inline;
   }
   .nav-link{
-    color:var(--font-color);
-    font-size: 15px;
-    margin-left: 255%;
+    color:black;
+    font-size: 18px;    
+    
   }
   .nav-link:hover{
-    color:aqua;
-    opacity:0.2;
+    color:rgb(3, 114, 114);
+    opacity:0.5;
+    background-color: antiquewhite;
   }
   .navbar-toggle {
     visibility: visible;
     display: inline;
+
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
   }
   .bi  {
     font-size: 20px;
@@ -546,12 +560,10 @@ ul.list-inline li {
     
     background-color:rgba(44, 43, 42, 0.178);
     padding: .2%;
-    /* margin-top: -34%; */
-    /* width: 95%; */
-    /* height:20%; */
-    margin-left: 55%;
+    margin-left: 75%;
+    margin-bottom: 2%;
     border-radius: 90%;
-    background-size: contain;
+   
 
 
 
@@ -578,18 +590,103 @@ ul.list-inline li {
   .icon-bar{
     background-color:white;
   }
-  
+  /*****************************carousel section********************/
+  .skill-title{
+    margin-left: 2%;
+    
+    margin-top: 3%;
+    background-color: var(--acc-color2);
+    font-size: 28px;
+    color: white;
+    width:95%;
+    height: 5%;
+  }
+  /* .sep-box span {
+    color: var(--acc-color2);
+    width:590px;
+    height:15px;
+    margin-top:80%;
+  } */
+  .grid-container{
+    
+  }
+  .react-info li{
+    display:inline-flex;
+    justify-content: center;
+    padding:1%;
+    margin-left: 2%;
+    margin-top: -15%;
+  }
+  .react-info li:hover{
+    color:var(--action-filler);
+    opacity: 0.7;
+  }
+  .flex-container1{
+    margin-left: 1%;
+    margin-top: 5%;
+    width:98%;
+    
+  }
+  .python-info li{
+    display:inline-flex;
+    justify-content: center;
+    padding:.5%;
+    margin-left: 8%;
+  }
+  .python-info li:hover{
+    color:aqua;
+    opacity: 0.7;
+  }
+  .flex-container2{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    
+    width: 98%;
+    
+  }
+  .Html-info li{
+    display:inline-flex;
+    justify-content: center;
+    padding:1%;
+    margin-left: 7%;
+    margin-top: -15%;
+  }
+  .Html-info li:hover{
+    color:#6c648b;
+  }
+  .flex-container3{
+    margin-left: 1%;
+    width:98%;
+  }
+  .flex-container4{
+    margin-left: 1%;
+    width:98%;
+  }
 }
 
 @media only screen and (max-width:320px){
-  .Portfolio{
+  /* .Portfolio{
     background-color: #B6A19e;
     background-repeat: no-repeat;
     font-size: 15px;
   }
   
-}
+} */
 
 
-/*************************** tablet **********************/
-
+/***********************carousel section**************************/
+/* @media only screen and (max-width:320px){
+  .skill-title{
+    margin-left:5%;
+  }
+  .sep-box span {
+    color: var(--acc-color2);
+    width:590px;
+    height:15px;
+    margin-top:80%;
+  }
+  .flex-container1{
+    margin-left: 15%;
+  }
+} */
