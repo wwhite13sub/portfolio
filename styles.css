@@ -564,12 +564,12 @@ body {
   }
   .Me{
     /* margin-left: 30%; */
-    margin-right: 1%;
+    margin-right: 30%;
     font-size: 2rem;
     color:white;
     background-color: #b6a19e;
     margin-top: 8%;
-    width:80%;
+    width:69%;
   }
   .form-group label{
     margin-top: 2%;
