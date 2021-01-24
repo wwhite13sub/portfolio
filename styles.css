@@ -661,8 +661,8 @@ html,body{
   }
   .container-aboutMe{
     background-color: #cbc4cb;
-    padding:15%;
-    padding-bottom: 30%;
+    padding:5%;
+    padding-bottom: 20%;
   }
   .container-aboutMe p {
     font-family: sans-serif;
@@ -674,7 +674,7 @@ html,body{
     color:white;
     background-color: #b6a19e;
     margin-top: 18%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width:100%;
     text-align: center;
   }
