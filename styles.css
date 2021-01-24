@@ -61,24 +61,22 @@ body {
 
 .Portfolio {
   background-color: black;
-  background-image:linear-gradient(#d3b9b5d7,#6c648b,rgb(61, 61, 61));
+  background-image:linear-gradient(#d3b9b5d7,#686380,rgb(46, 46, 46));
   background-repeat: no-repeat;
 }
 .container {
   width: 100%;
   padding:5%;
 }
- .fa:hover {  
-  opacity: 0.5;
+ .fa:hover {
+   opacity:0.5;
+ }
+
+.fa-facebook-square {
+  color:white;
 }
 
-.fa-facebook-square {  
-  background: #3B5998;
-    color:white;
-}
-
-.fab-linkedin {  
-  background:#55acee;  
+.fab-linkedin {
   color: white;
 } 
 
@@ -144,20 +142,8 @@ body {
   margin-left: 75%;
   box-shadow: 0 0 105px rgb(201, 253, 253);
   border-radius: 85%;
-  width: 22%;
+  width: 22%;  
   
-  
-  
-  
-
-  
-  
-  /* animation-name: slide; */
-  /* position: relative;
-  animation-direction: reverse;
-  animation-duration: 1.2s; */
-
-  /* padding-right: -3%; */
 }
 
 
@@ -254,7 +240,7 @@ body {
 .container-main2 li {
   display:inline-block;
   justify-content: space-between;
-  margin-left: 5%;
+  margin-left: 3%;
   padding: 1%;
   color:antiquewhite;
   font-size: 20px;
@@ -271,19 +257,22 @@ body {
                                *******************************************************************
 **********************************************************************************************************************************/
 .skill-title{       
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 4%;
   margin-right: 1%;
   background-color: var(--acc-color2);
   font-size: 2rem;
   color: white;
-  width:112%;
+  width:100%;
+  text-align: center;
  
 }
 .container-skill-info {
   background-color: rgba(245, 245, 245, 0.507);
   width:100%;
   height:100%;
-  padding:10%;   
+  padding:10%; 
+    
   
 }
 .container-skill-info li{
@@ -303,8 +292,8 @@ body {
 .carousel-item{
   width:100%;
   height:60%;
-  margin-left: -1.5%;
-  margin-top: 3%;
+  margin-left: 0%;
+  margin-top: 8%;
   
  
 }
@@ -317,29 +306,31 @@ body {
 }
 
 .pro1-header{
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
   margin-top: 10%;
   display:flex;
   justify-content: center;
+  text-align: center;
   
 }
 .pro2-header{
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
   margin-top: 15%;
   display:flex;
   justify-content: center;
+  text-align: center;
 }
 .pro3-header{
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
   margin-top: 15%;
   display:flex;
   justify-content: center;
 }
 .pro4-header{
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
   margin-top: 15%;
   display:flex;
@@ -347,7 +338,8 @@ body {
 }
 
 .all-containers{
-  width:40%;   
+  width:40%; 
+   
   
 }
 
@@ -356,13 +348,14 @@ body {
   margin-top: 15%;
   width:100%;
   box-shadow: 0 0 125px white;
+  background-color: rgba(124, 110, 110, 0.74);
  
    
 }
 .react-info li{
   display:inline-flex;
   justify-content: center;
-  margin-left: -2%;
+  margin-left: 2%;
   margin-top: 5%;
   color:white;
 }
@@ -379,6 +372,7 @@ body {
   margin-top: -95%;    
   width: 100%; 
   box-shadow: 0 0 125px white; 
+  background-color: rgba(124, 110, 110, 0.74);
   
   
 }
@@ -386,7 +380,7 @@ body {
   display:inline-flex;
   justify-content: center;
   color:white;
-  margin-left: -2%;
+  margin-left: 2%;
 }
 .python-info li:hover{
   color:aqua;
@@ -400,12 +394,13 @@ body {
   margin-top: 2%;
   margin-bottom: 50%;
   width:100%;
-  box-shadow: 0 0 125px white;   
+  box-shadow: 0 0 125px white; 
+  background-color: rgba(124, 110, 110, 0.74);  
 }
 .Html-info li{
   display:inline-flex;
   justify-content: center;    
-  margin-left: 1%;
+  margin-left: 2%;
   margin-top: -15%;
   color:white;
 }
@@ -420,12 +415,14 @@ body {
   margin-bottom: 20%;
   width:100%;
   box-shadow: 0 0 125px white;
+  background-color: rgba(124, 110, 110, 0.74);
 
 }
 .Node-info li{
   display:inline-flex;
   justify-content: center;   
   margin-top: -15%;
+  margin-left: 2%;
   color:white;
 }
 .Node-info li:hover{
@@ -435,38 +432,30 @@ body {
 /******************************************************About Section****************************************************************
                                   *******************************************************************
 *********************************************************************************************************************************/
-/* .container-aboutMe{
-  background-color: #fca7168a;
-  height:100%;
-  width:100%;
-  padding-top: 10%; 
 
-}
-
-.Me{
-  margin-left: 35%;
-  margin-top: 10%;
-} */
-
-.container-aboutMe{
-  background-color: #fca7168a;
-  padding:2%;
-}
 .container-aboutMe p {
   font-family: sans-serif;
 }
 .Me{
-  /* margin-left: 30%; */
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 10%;
   font-size: 2rem;
   color:white;
-  background-color: #b6a19e;
+  background-color: var(--acc-color2);
   margin-top: 8%;
-  width:30%;
+  width:80%;
+  text-align: center;
   
 }
-
+.container-aboutMe{
+  background-color: #cbc4cb;
+  padding:5%;
+  padding-bottom: 10%;
+}
+.container-aboutMe p {
+  font-family: sans-serif;
+  padding:8%;
+}
 /******************************************************Contact Section***********************************************************
                                   *******************************************************************
 ********************************************************************************************************************************/
@@ -477,10 +466,11 @@ body {
   padding:.2%;
 }
 .form-control{
-  width:65%;
+  width:75%;
   margin-left: 8%;
   background-color:#ffffff;
   margin-top:1%;
+  padding:2%;
   
 }
 .container-contact{
@@ -492,14 +482,41 @@ body {
 }
 .email-container{
   background-color: var(--acc-color2);
-  justify-content: center;
+  text-align: center;
+  width:100%;
+    margin-left: 1%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+    
 }
 .btn-custom {
   margin-left: 40%;
   margin-top:3%;
   margin-bottom: 3%;
 }
-  
+ 
+.up-link{
+  text-align:center;
+  padding:5%;
+  font-size: 1.2rem;
+}
+
+.container-list{
+  background-color: #82ccbb;
+  width: 100%;
+}
+.list-inline{
+  display:flex;
+  justify-content: center;
+  padding:1%;
+}
+.list-inline li {
+  display: inline-block;
+  padding:2%;
+  margin-left: 2%;
+  text-shadow: 0px 7px 10px;
+} 
 
   
 
@@ -632,7 +649,7 @@ html,body{
     background-color: rgba(245, 245, 245, 0.507);
     width:100%;
     height:100%;
-    padding:10%;   
+    padding:15%;   
     
   }
   .container-skill-info li{
@@ -644,19 +661,22 @@ html,body{
   }
   .container-aboutMe{
     background-color: #cbc4cb;
-    padding:5%;
+    padding:15%;
+    padding-bottom: 30%;
   }
   .container-aboutMe p {
     font-family: sans-serif;
   }
   .Me{
-    /* margin-left: 30%; */
-    margin-right: 30%;
+    margin-left: 0%;
+    margin-right: 0%;
     font-size: 2rem;
     color:white;
     background-color: #b6a19e;
-    margin-top: 8%;
-    width:69%;
+    margin-top: 18%;
+    margin-bottom: 10%;
+    width:100%;
+    text-align: center;
   }
   .form-group label{
     margin-top: 5%;
@@ -671,28 +691,32 @@ html,body{
   }
   .container-contact{
     background-color: rgb(255, 255, 255);
-    padding: 5%;
+    padding: 10%;
     margin-left:0%;
-  margin-right: 0%;
-  margin-top: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
   }
-  .email-container{
-    /* background-color: var(--acc-color2); */
-    width:79%;
-   margin-left: 25%;
+  .email-container{   
+    width:100%;
+    margin-left: 1%;
     margin-top: 20%;
+    margin-bottom: 5%;
     font-size: 2rem;
     color:white;
-    background-color: #B6A19e;
-    
-    padding:1%;
+    background-color: #B6A19e;    
+    text-align: center;
   }
+
   .btn-custom {
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top:3%;
     margin-bottom: 3%;
   }
-
+  .up-link{
+    text-align:center;
+    padding:20%;
+    font-size: 1.2rem;
+  }
   .container-list{
     background-color: #82ccbb;
     width: 100%;
@@ -712,22 +736,16 @@ html,body{
 
 
   /*****************************carousel section mobile********************/
-  .all-containers{
-    width:100%;
-    /* display: flex;
-    flex-flow:wrap; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-  }
+  
   .skill-title{       
-    margin-top: 3%;
-    margin-right: 1%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left: 0%;
     background-color: var(--acc-color2);
     font-size: 2rem;
     color: white;
-    width:112%;
+    width:100%;
+    text-align: center;
    
   }
   .skill-info{
@@ -775,6 +793,7 @@ html,body{
     margin-top: 15%;
     display:flex;
     justify-content: center;
+    text-align: center;
   }
   .pro4-header{
     font-weight: bolder;
@@ -782,16 +801,21 @@ html,body{
     margin-top: 15%;
     display:flex;
     justify-content: center;
+    text-align: center;
   }
   /*******************************************************/
-
   .all-containers{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: rgba(124, 110, 110, 0.74);
+    
   }
   
   .flex-container1{
     margin-left: 1%;
-    margin-top: 5%;
+    margin-top: 0%;
     width:100%;
     box-shadow: 0 0 125px white;     
   }
