@@ -224,26 +224,26 @@ body {
   border-width: 2px;
   border-color: rgba(61, 82, 82, 0.411);
   box-shadow: 0 0 125px black;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
   overflow: hidden;
-  padding: 1.2%;
+  padding: .5%;
   z-index: 50;
   position:sticky;
   top:0;
+
   
   
 }
 
 
 .container-main2 li {
-  display:inline-block;
-  justify-content: space-between;
-  margin-left: 3%;
-  padding: 1%;
+  display:inline;
+  justify-content: center;
+  margin-left: 3%;  
+  padding: .5%;
   color:antiquewhite;
   font-size: 20px;
+  overflow: hidden;
+  
 
 }
 
