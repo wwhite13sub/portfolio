@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box;
+  overflow-x:visible;
 }
 *,*:before,*:after {
   margin: 0;
@@ -10,6 +11,7 @@ html {
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: visible;
 }
 /**********************color variables**********************/
 :root {
@@ -20,13 +22,13 @@ body {
   --acc-color2:#B6A19E;
   --acc-color3:#686369;
 }
-.bi{
+.far{
   color:var(--action-filler);
   padding: 7px;
   font-size: 38px;
   display: inline-flex;
 }
-.bi:hover {
+.far:hover {
   color:black;
   opacity:0.5;
 }
@@ -38,7 +40,7 @@ body {
   display:none;
 }
 .navbar-toggler   {
-  font-size: 10px;
+  font-size: 20px;
   background-color:var(--action-filler);
   display: inline-flex;
 }
@@ -269,7 +271,7 @@ body {
                                *******************************************************************
 **********************************************************************************************************************************/
 .skill-title{       
-  margin-top: 3%;
+  margin-top: 5%;
   margin-right: 1%;
   background-color: var(--acc-color2);
   font-size: 2rem;
@@ -456,12 +458,13 @@ body {
 .Me{
   /* margin-left: 30%; */
   margin-top: 10%;
-  margin-left: 35%;
+  margin-left: 30%;
   font-size: 2rem;
   color:white;
   background-color: #b6a19e;
   margin-top: 8%;
-  width:69%;
+  width:30%;
+  
 }
 
 /******************************************************Contact Section***********************************************************
@@ -485,6 +488,7 @@ body {
   padding: 5%;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 10%;
 }
 .email-container{
   background-color: var(--acc-color2);
@@ -505,16 +509,24 @@ body {
 *******************************************************************************************/
 
 @media only screen and (max-width: 992px){
+html,body{
+  overflow-x: hidden;
+} /*securing in case carousel overflows*/
+.far{
+  color:white;
+  padding: 7px;
+  font-size: 25px;
+  display: inline-flex;
+}
 .text-box{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgba(101, 236, 207, 0.616);
-  width:105%;
+  width:100%;
   height:95%;
   margin-left:-3%;
-  margin-right: ;
   box-shadow: 0 0 105px rgb(18, 109, 109);
   }
   .navbar-brand{
@@ -559,7 +571,7 @@ body {
   .navbar-toggler:focus {
     box-shadow: none;
   }
-  .bi  {
+  .fa  {
     font-size: 20px;
     color:var(--action-filler)    
   }
@@ -589,12 +601,16 @@ body {
     width:100%;
     margin-top:8%;
   }
-  
+  .person-img {
+    height: 108%; 
+    margin-left: 2%;
+    margin-top: 5%;
+  }
   
   .container-one-img{    
     background-color:rgba(78, 78, 78, 0.178);
     padding: .2%;
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: .5%;
     margin-bottom: 2%;
     border-radius: 90%;
@@ -643,8 +659,8 @@ body {
     width:69%;
   }
   .form-group label{
-    margin-top: 2%;
-    padding:.2%;
+    margin-top: 5%;
+    
   }
   .form-control{
     width:85%;
@@ -658,10 +674,18 @@ body {
     padding: 5%;
     margin-left:0%;
   margin-right: 0%;
+  margin-top: 0%;
   }
   .email-container{
-    background-color: var(--acc-color2);
-    justify-content: center;
+    /* background-color: var(--acc-color2); */
+    width:79%;
+   margin-left: 25%;
+    margin-top: 20%;
+    font-size: 2rem;
+    color:white;
+    background-color: #B6A19e;
+    
+    padding:1%;
   }
   .btn-custom {
     margin-left: 40%;
