@@ -40,7 +40,7 @@ body {
   display:none;
 }
 .navbar-toggler   {
-  font-size: 20px;
+  font-size: 25px;
   background-color:var(--action-filler);
   display: inline-flex;
 }
@@ -636,7 +636,7 @@ html,body{
   .bi-list{
     width:10%;
     color:white;
-    padding:0%;
+    padding:1%;
   }
   .button.bi-list:hover{
     border-color: antiquewhite;
