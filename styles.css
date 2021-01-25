@@ -24,8 +24,8 @@ body {
 }
 .far{
   color:var(--action-filler);
-  padding: 7px;
-  font-size: 38px;
+  padding: 2px;
+  font-size: 35px;
   display: inline-flex;
 }
 .far:hover {
@@ -165,7 +165,7 @@ body {
 .text-box span {
   position: absolute;
   background: rgb(47, 219, 219);
-  margin-top: 8%;
+  margin-top: 2%;
   width: 390px;
   position: absolute;
   height: 3px;
@@ -223,12 +223,10 @@ body {
 
 .container-main2 {
   background-color: rgb(67, 190, 174);
-  border-style: solid;
-  border-width: 2px;
   border-color: rgba(61, 82, 82, 0.411);
   box-shadow: 0 0 125px black;
   overflow: hidden;
-  padding: .5%;
+  padding: 1%;
   z-index: 50;
   position:sticky;
   top:0;
@@ -242,7 +240,7 @@ body {
   display:inline;
   justify-content: center;
   margin-left: 7%;  
-  padding: .5%;
+  padding: 0%;
   color:antiquewhite;
   font-size: 20px;
   overflow: hidden;
@@ -839,6 +837,7 @@ html,body{
     justify-content: center;
     margin-left: -2%;
     margin-top: 5%;
+    padding:1.2%;
     color:white;
   }
   .react-info li:hover{
@@ -859,6 +858,7 @@ html,body{
   .python-info li{
     display:inline-flex;
     justify-content: center;
+    padding:1.2%;
     color:white;
     margin-left: -2%;
   }
