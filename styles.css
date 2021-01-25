@@ -94,12 +94,14 @@ body {
 .media-nav{
   display:flex;
   justify-content: left;
-  margin-top: -20%;
+  margin-top: -25%;
+  margin-left: 15%;
+  margin-bottom:10%;
 }
 .media-nav li {
-  font-size: 10px;
+  font-size: 15px;
   display: inline-block;
-  padding: 1%;
+  padding: 1.5%;
   text-shadow: 0px 7px 10px;
 }
 
@@ -135,11 +137,11 @@ body {
 
 .container-one-img {
   background-color: rgba(0, 0, 0, 0.377);
-  margin-top: -5%;
-  margin-bottom: 5%;
+  margin-top: -18%;
+  margin-bottom: 15%;
   margin-right: 25%;
  
-  margin-left: 75%;
+  margin-left: 65%;
   box-shadow: 0 0 105px rgb(201, 253, 253);
   border-radius: 85%;
   width: 22%;  
@@ -157,6 +159,7 @@ body {
 }
 .intro {
   font-size: 70px;
+  margin-left: 0%;
   color:black;
 }
 .text-box span {
@@ -238,7 +241,7 @@ body {
 .container-main2 li {
   display:inline;
   justify-content: center;
-  margin-left: 3%;  
+  margin-left: 7%;  
   padding: .5%;
   color:antiquewhite;
   font-size: 20px;
@@ -291,7 +294,7 @@ body {
 
 .carousel-item{
   width:100%;
-  height:60%;
+  height:100%;
   margin-left: 0%;
   margin-top: 8%;
   
@@ -429,6 +432,8 @@ body {
   color:var(--action-filler);
 }
 
+
+
 /******************************************************About Section****************************************************************
                                   *******************************************************************
 *********************************************************************************************************************************/
@@ -449,12 +454,20 @@ body {
 }
 .container-aboutMe{
   background-color: #cbc4cb;
-  padding:5%;
-  padding-bottom: 10%;
+  padding:2%;
+  padding-bottom: 5%;
 }
 .container-aboutMe p {
   font-family: sans-serif;
-  padding:8%;
+  padding:1%;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+.container-aboutMe img {
+  width:100%;
+  height:100%;
 }
 /******************************************************Contact Section***********************************************************
                                   *******************************************************************
@@ -553,7 +566,7 @@ html,body{
   .intro {
     font-size: 50px;
     color:rgb(43, 42, 42);
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 8%;
   }
 #spinner{
@@ -597,16 +610,18 @@ html,body{
     display: none;
   }
   .media-nav{
-    display:flex;
-    justify-content: left;
-    margin-top: 2%;
+  display:flex;
+  justify-content: left;
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-bottom:2%;
   }
   .media-nav li {
-    font-size: 10px;
+    font-size: 12px;
     display: inline-block;
-    padding: 1%;
-    margin-top: -30%;
-    margin-left: 3%;
+    padding: .5%;
+    margin-top: -20%;
+    margin-left: 2%;
     margin-right: 10%;
     text-shadow: 0px 7px 10px;
   }
@@ -628,7 +643,7 @@ html,body{
     background-color:rgba(78, 78, 78, 0.178);
     padding: .2%;
     margin-left: 70%;
-    margin-top: .5%;
+    margin-top: -17%;
     margin-bottom: 2%;
     border-radius: 90%;
   }
