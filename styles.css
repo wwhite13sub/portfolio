@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   overflow-x:visible;
 }
+/* Paul Irish Reset: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *,*:before,*:after {
   margin: 0;
   padding:0;
