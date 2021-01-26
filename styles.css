@@ -16,7 +16,7 @@ body {
 }
 /**********************color variables**********************/
 :root {
-  --background-gradient:linear-gradient(#B6A19e,#8f7777,black);
+  --background-gradient:linear-gradient(#B6A19e,#7e7070,black);
   --action-filler:#fa9f02;
   --font-color:whitesmoke;
   --acc-color:aqua;
@@ -26,7 +26,7 @@ body {
 .far{
   color:var(--action-filler);
   padding: 2px;
-  font-size: 35px;
+  font-size: 25px;
   display: inline-flex;
 }
 .far:hover {
@@ -62,7 +62,7 @@ body {
 
 .Portfolio {
   background-color: black;
-  background-image:linear-gradient(#d3b9b5d7,#686380,rgb(46, 46, 46));
+  background-image:linear-gradient(#d3b9b5d7,#7e7070,rgb(46, 46, 46));
   background-repeat: no-repeat;
 }
 .container {
@@ -70,14 +70,14 @@ body {
   padding:5%;
 }
  .fa:hover {
-   opacity:0.5;
+   opacity:0.7;
  }
 
 .fa-facebook-square {
   color:white;
 }
 
-.fab-linkedin {
+.fa-linkedin {
   color: white;
 } 
 
@@ -103,17 +103,14 @@ body {
   font-size: 15px;
   display: inline-block;
   padding: 1.5%;
-  text-shadow: 0px 7px 10px;
+  text-shadow: 0px 2px 4px;
 }
 
-#list-inline2 {
+.list-inline {
  display: flex;
  justify-content: center;
- padding:5%;
+ padding:2%; 
   
-}
-#list-inline2 li {
-  padding:3%;
 }
 
 
@@ -216,7 +213,7 @@ body {
   50% {
     top: 100px;
     left: 100px;
-    color: #e88d72;
+    color: #6d4033;
   }
   
 }
@@ -228,6 +225,7 @@ body {
   box-shadow: 0 0 125px black;
   overflow: hidden;
   padding: 1%;
+  margin-top: -2%;
   z-index: 50;
   position:sticky;
   top:0;
@@ -240,15 +238,19 @@ body {
 .container-main2 li {
   display:inline;
   justify-content: center;
-  margin-left: 7%;  
+  margin-left: 10%;  
   padding: 0%;
-  color:antiquewhite;
-  font-size: 20px;
-  overflow: hidden;
-  
+  font-size: 25px;
+  overflow: hidden; 
 
 }
-
+.container-main2 li:hover{
+  background-color:rgba(250, 235, 215, 0.486);
+}
+.container-main2 li a {
+  text-decoration: none;
+  
+}
 
 
 
@@ -295,7 +297,7 @@ body {
   width:100%;
   height:100%;
   margin-left: 0%;
-  margin-top: 8%;
+  margin-top: 10%;
   
  
 }
@@ -310,7 +312,7 @@ body {
 .pro1-header{
   font-weight: bold;
   font-size: 1.5rem;
-  margin-top: 10%;
+  margin-top: 15%;
   display:flex;
   justify-content: center;
   text-align: center;
@@ -319,7 +321,7 @@ body {
 .pro2-header{
   font-weight: bold;
   font-size: 1.5rem;
-  margin-top: 15%;
+  margin-top: 10%;
   display:flex;
   justify-content: center;
   text-align: center;
@@ -340,17 +342,31 @@ body {
 }
 
 .all-containers{
-  width:40%; 
-   
+  width:45%;  
   
 }
 
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 155px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #black;
+  text-align: center;
+  opacity: .7;
+  transition: opacity .15s ease;
+}
+
 .flex-container1{
-  margin-left: 10%;
-  margin-top: 15%;
+  margin-left: 5%;
+  margin-top: 25%;
   width:100%;
-  box-shadow: 0 0 125px white;
-  background-color: rgba(124, 110, 110, 0.74);
+  
+  
  
    
 }
@@ -358,7 +374,7 @@ body {
   display:inline-flex;
   justify-content: center;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 2%;
   color:white;
 }
 .react-info li:hover{
@@ -369,12 +385,12 @@ body {
 
 
 .flex-container2{
-  margin-left: 135%;
+  margin-left: 115%;
   margin-right: 1%;
   margin-top: -95%;    
   width: 100%; 
-  box-shadow: 0 0 125px white; 
-  background-color: rgba(124, 110, 110, 0.74);
+   
+  
   
   
 }
@@ -392,12 +408,12 @@ body {
 
 
 .flex-container3{
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 50%;
   width:100%;
-  box-shadow: 0 0 125px white; 
-  background-color: rgba(124, 110, 110, 0.74);  
+  
+   
 }
 .Html-info li{
   display:inline-flex;
@@ -412,12 +428,12 @@ body {
 
 
 .flex-container4{
-  margin-left: 135%;
-  margin-top: -125%;
-  margin-bottom: 20%;
+  margin-left: 115%;
+  margin-top: -130%;
+  margin-bottom: 45%;
   width:100%;
-  box-shadow: 0 0 125px white;
-  background-color: rgba(124, 110, 110, 0.74);
+  
+  
 
 }
 .Node-info li{
@@ -460,13 +476,17 @@ body {
   font-family: sans-serif;
   padding:1%;
   justify-content: center;
-  margin-bottom: 5%;
-  margin-left:10%;
-  margin-right: 10%;
+  margin: 5% 10% 5% 10%;
+  
 }
 .container-aboutMe img {
   width:100%;
   height:100%;
+}
+.cert{
+  width:60%;
+  height:40%;
+  margin-left: 20%;
 }
 /******************************************************Contact Section***********************************************************
                                   *******************************************************************
@@ -517,15 +537,22 @@ body {
 .container-list{
   background-color: #82ccbb;
   width: 100%;
+  
 }
 .list-inline{
   display:flex;
   justify-content: center;
-  padding:1%;
+  
 }
+#list-inline2{
+  display:flex;
+  justify-content: center;
+  padding:-15%;
+}
+
 .list-inline li {
   display: inline-block;
-  padding:2%;
+  padding:0%;
   margin-left: 2%;
   text-shadow: 0px 7px 10px;
 } 
@@ -542,9 +569,9 @@ html,body{
   overflow-x: hidden;
 } /*securing in case carousel overflows*/
 .far{
-  color:white;
+  color:var(--action-filler);
   padding: 7px;
-  font-size: 25px;
+  font-size: 15px;
   display: inline-flex;
 }
 .text-box{
@@ -565,7 +592,7 @@ html,body{
   .intro {
     font-size: 50px;
     color:rgb(43, 42, 42);
-    margin-left: 0%;
+    margin-left: -5%;
     margin-top: 8%;
   }
 #spinner{
@@ -622,7 +649,7 @@ html,body{
     margin-top: -20%;
     margin-left: 2%;
     margin-right: 2%;
-    text-shadow: 0px 7px 10px;
+    text-shadow: 0px 2px 4px;
   }
   
   
@@ -641,8 +668,8 @@ html,body{
   .container-one-img{    
     background-color:rgba(78, 78, 78, 0.178);
     padding: .2%;
-    margin-left: 70%;
-    margin-top: -17%;
+    margin-left: 65%;
+    margin-top: -27%;
     margin-bottom: 2%;
     border-radius: 90%;
   }
@@ -738,13 +765,13 @@ html,body{
   .list-inline{
     display:flex;
     justify-content: center;
-    padding:5%;
+    padding:2%;
   }
   .list-inline li {
     display: inline-block;
-    padding:5%;
+    padding:2%;
     margin-left: 2%;
-    text-shadow: 0px 7px 10px;
+    text-shadow: 0px 2px 10px;
   } 
 
 
@@ -827,11 +854,27 @@ html,body{
     
   }
   
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    opacity: .6;
+    transition: opacity .15s ease;
+}
   .flex-container1{
     margin-left: 1%;
     margin-top: 0%;
+    padding:5%;
     width:100%;
-    box-shadow: 0 0 125px white;     
+    box-shadow: 0 0 0px;     
   }
   .react-info li{
     display:inline-flex;
@@ -851,9 +894,10 @@ html,body{
   .flex-container2{
     margin-left: 1%;
     margin-right: 1%;
-    margin-top: 1%;    
+    margin-top: 1%; 
+    padding:5%;   
     width: 100%; 
-    box-shadow: 0 0 125px white;  
+    box-shadow: 0 0 0px ;  
     
   }
   .python-info li{
@@ -871,10 +915,11 @@ html,body{
 
 
   .flex-container3{
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 2%;
+    padding:5%;
     width:100%;
-    box-shadow: 0 0 125px white;   
+    box-shadow: 0 0 0px;   
   }
   .Html-info li{
     display:inline-flex;
@@ -891,9 +936,10 @@ html,body{
   .flex-container4{
     margin-left: 1%;
     margin-top: -48%;
+    padding:5%;
    
     width:100%;
-    box-shadow: 0 0 125px white;
+    box-shadow: 0 0 0px;
 
   }
   .Node-info li{
@@ -904,6 +950,11 @@ html,body{
   }
   .Node-info li:hover{
     color:var(--action-filler);
+  }
+  .cert{
+    width:80%;
+    height:60%;
+    margin-left: 10%;
   }
 
 }
