@@ -2,7 +2,7 @@
 
 html {
   box-sizing: border-box;
-  overflow-x:hidden;
+  overflow-x:visible;
 }
 /* Paul Irish Reset: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *,*:before,*:after {
@@ -12,7 +12,7 @@ html {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  overflow-x:hidden;
+  overflow-x:visible;
 }
 /**********************color variables**********************/
 :root {
