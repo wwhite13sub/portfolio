@@ -475,9 +475,8 @@ body {
 }
 .container-aboutMe p {
   font-family: sans-serif;
-  padding:1%;
   justify-content: center;
-  margin: 5% 10% 5% 10%;
+  margin: 2% 10% 1% 10%;
   
 }
 .container-aboutMe img {
@@ -612,13 +611,13 @@ html,body{
   }
   .nav-link{
     color:black;
-    font-size: 18px;    
+    font-size: 19px;    
     
   }
   .nav-link:hover{
-    color:rgb(3, 114, 114);
-    opacity:0.5;
-    background-color: antiquewhite;
+    color:black;
+    opacity:0.7;
+    background-color: rgba(250, 235, 215, 0.801);
   }
   .navbar-toggle {
     visibility: visible;
@@ -630,7 +629,8 @@ html,body{
   }
   .fa  {
     font-size: 20px;
-    color:var(--action-filler)    
+    color:var(--action-filler);
+  
   }
   
   .container-main2 {
@@ -930,7 +930,7 @@ html,body{
     color:white;
   }
   .Html-info li:hover{
-    color:#574d7c;
+    color:aqua;
   }
 
   
