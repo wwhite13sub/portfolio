@@ -6,8 +6,10 @@ Develop personal website that is to be primarily used by potential employers to 
 ## Details
 a) Potential employer will access website through via internet by entering site address. 
 
-b) Potential employer will click on menu to view skills and Applications
+b) Potential employer will click on menu to view skills and Applications.
+
 c) Potential employer will click on menu to view more information about Wanda White.
+
 d) Potential employer will click on menu to display a contact page where name,email address and comments can be entered. An email will be sent to Wanda White. 
 
 e) Potential employer will click on any of the social media links to be directed to Wanda's personal profiles.
