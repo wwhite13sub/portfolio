@@ -615,7 +615,8 @@ html,body{
   position: absolute;
   background: rgb(47, 219, 219);
   margin-top: 2%;
-  width: 300px;
+  margin-bottom: 5%;
+  width: 320px;
   margin-right: 15%;
   height: 3px;
 
@@ -765,14 +766,16 @@ html,body{
   }
 
   .btn-custom {
-    margin-left: 38%;
+    margin-left: 35%;
     margin-top:3%;
     margin-bottom: 3%;
   }
-  .up-link{
+  .up-link a{
     text-align:center;
     padding:20%;
     font-size: 1.2rem;
+    color:white;
+    text-decoration: none;
   }
   .container-list{
     background-color: #82ccbb;
