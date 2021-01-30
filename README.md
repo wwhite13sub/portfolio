@@ -2,7 +2,7 @@
 Website: https://ww-portfolio.netlify.app/
 This application is build with HTML, CSS, and Bootstrap.
 ## Overview
-To Develop personal website that is to be primarily used by potential employers to quickly and easily view if developer is a fit to hire. The developer, Wanda White wants her website to be accessed by potential employers that will showcase skills and applications in a creative and professional manner. The information provided should include carousels of completed applications, information about developer and contact form to directly email Wanda. 
+To develop personal website that is to be primarily used by potential employers to quickly and easily view if developer is a fit to hire. The developer, Wanda White wants her website to be accessed by potential employers that will showcase skills and applications in a creative and professional manner. The information provided should include carousels of completed applications, information about developer and contact form to directly email Wanda. 
 ## Details
 a) Potential employer will access website through via internet by entering site address. 
 
