@@ -866,7 +866,7 @@ html,body{
   
   .carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top:250px;
+    top:240px;
     bottom: 0;
     z-index: 1;
     display: flex;
