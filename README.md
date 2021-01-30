@@ -17,7 +17,7 @@ e) Potential employer will click on any of the social media links to be directed
 HTML, CSS, JavaScript, Bootstrap, Fromspree, Git, Github, Draw.io, Dillinger, Google Chrome, Visual Studio Code, and Netlify.com.
 ## Ideas For Future Improvements
 * Design- Add a gallery of images to display all completed websites.
-* Functionality- Application will include server side to manage all emails and communications.
+* Technical- Application will include server side to manage all emails and communications.
 * Update- As I implement web applications to production, add those projects and technical skills
 
 ## Setup and Installation

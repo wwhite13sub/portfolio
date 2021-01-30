@@ -143,7 +143,6 @@ body {
   margin-right: 25%;
  
   margin-left: 60%;
-  box-shadow: 0 0 105px rgb(201, 253, 253);
   border-radius: 85%;
   width: 22%;  
   
@@ -246,6 +245,7 @@ body {
   padding: 26px;
   font-size: 20px;
   overflow: hidden;
+  font-weight: bolder;
  
 
 }
@@ -355,7 +355,7 @@ body {
   width:70%; 
   margin-left: auto;
   margin-right: auto; 
-  background-color: #c2b3b1;
+ 
   
 }
 
@@ -563,7 +563,13 @@ body {
   margin-left: 2%;
   text-shadow: 0px 7px 10px;
 } 
-
+.up-link a{
+  text-align:center;
+  padding:20%;
+  font-size: 1.2rem;
+  color:white;
+  text-decoration: none;
+}
   
 
 
