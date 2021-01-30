@@ -611,7 +611,12 @@ html,body{
   margin-bottom: 5%;
 }
 .text-box span{
-  background:aqua;
+  position: absolute;
+  background: rgb(47, 219, 219);
+  margin-top: 2%;
+  width: 200px;
+  position: absolute;
+  height: 3px;
 
   }
   .navbar{
