@@ -16,8 +16,9 @@ e) Potential employer will click on any of the social media links to be directed
 ## Technologies Used
 HTML, CSS, JavaScript, Bootstrap, Fromspree, Git, Github, Draw.io, Dillinger, Google Chrome, Visual Studio Code, and Netlify.com.
 ## Ideas For Future Improvements
-* Application will used a gallery of images to display all completed websites.
-* Application will include server side to manage all emails and communications.
+* Design- Add a gallery of images to display all completed websites.
+* Functionality- Application will include server side to manage all emails and communications.
+* Update- As I implement web applications to production, add those projects and technical skills
 
 ## Setup and Installation
 
@@ -39,3 +40,14 @@ For production environments...
 ```sh
 Website: https://ww-portfolio.netlify.app/
 ```
+
+# USER STORIES:
+1)    As a representative in my company’s hiring process, I want to browse Wanda White’s technical skills and projects so that I can determine if her expertise matches our needs.
+
+2)    As a representative in my company’s hiring process, I want to access direct links to Wanda White’s Facebook, Linkedin and GitHub pages so that I can determine if I should move her to next step in our hiring process.
+
+3)    As a representative in my company’s hiring process, I want to send an email to Wanda White from her site so that I can communicate my company’s decisions when I don’t have her email address or phone number available.
+
+4)    As a representative in my company’s hiring process, I want to get a brief introduction to Wanda White’s background and why she is web developer so that I can more quickly decide if she will be fit in our organization. 
+
+5)    As a representative in my company’s hiring process, I want to review Wanda White’s information on mobile, laptop, tablet or desktop so that if I am working with any of my devices I can make progress on my hiring decisions.
