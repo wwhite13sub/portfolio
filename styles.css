@@ -65,6 +65,9 @@ body {
   background-image:linear-gradient(#d3b9b5d7,#7e7070,rgb(46, 46, 46));
   background-repeat: no-repeat;
 }
+#portfolio-main{
+  width: 947px;
+}
 .container {
   width: 100%;
   padding:5%;
@@ -572,6 +575,10 @@ body {
 html,body{
   overflow-x: hidden;
 } /*securing in case carousel overflows*/
+#portfolio-main{
+  width: 547px;
+}
+
 .far{
   color:var(--action-filler);
   padding: 7px;
@@ -601,12 +608,13 @@ html,body{
     font-size: 50px;
     color:rgb(43, 42, 42);
     margin-left: 0%;
+    margin-right: 30%;
     margin-top: 8%;
   }
 #spinner{
   font-size:32px;
   font-weight: bolder;
-  margin-left: 10%;
+  margin-left: 0%;
   margin-top: 5%;
   margin-bottom: 5%;
   
