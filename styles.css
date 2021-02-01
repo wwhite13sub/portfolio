@@ -610,15 +610,18 @@ html,body{
     font-family: sans-serif;
     font-size: 1rem;
   }
+  div.index.container{
+    
+  }
   .intro {
-    font-size: 50px;
+    font-size: 40px;
     color:rgb(43, 42, 42);
     margin-left: 0%;
     margin-right: 30%;
     margin-top: 8%;
   }
 #spinner{
-  font-size:25px;
+  font-size:21px;
   font-weight: bolder;
   margin-left: 0%;
   margin-top: 5%;
