@@ -518,7 +518,7 @@ body {
   margin-bottom: 3%;
 }
  
-.up-link{
+.up_link{
   text-align:center;
   padding:5%;
   font-size: 1.2rem;
@@ -546,7 +546,7 @@ body {
   margin-left: 2%;
   text-shadow: 0px 7px 10px;
 } 
-.up-link a{
+.up_link a{
   text-align:center;
   padding:20%;
   font-size: 1.2rem;
@@ -760,7 +760,7 @@ html,body{
     margin-top:10%;
     margin-bottom: 3%;
   }
-  .up-link a{
+  .up_link a{
     text-align:center;
     padding:20%;
     font-size: 1.2rem;
